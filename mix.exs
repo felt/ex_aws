@@ -2,7 +2,7 @@ defmodule ExAws.Mixfile do
   use Mix.Project
 
   @source_url "https://github.com/ex-aws/ex_aws"
-  @version "2.5.9"
+  @version "2.5.11"
 
   def project do
     [
@@ -47,7 +47,7 @@ defmodule ExAws.Mixfile do
       {:telemetry, "~> 0.4.3 or ~> 1.0"},
       {:mime, "~> 1.2 or ~> 2.0"},
       {:bypass, "~> 2.1", only: :test},
-      {:configparser_ex, "~> 4.0", optional: true},
+      {:configparser_ex, "~> 5.0", optional: true},
       {:dialyxir, "~> 1.0", only: [:dev, :test], runtime: false},
       {:ex_doc, "~> 0.16", only: [:dev, :test]},
       {:hackney, "~> 1.16", optional: true},
