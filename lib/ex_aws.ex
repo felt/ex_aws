@@ -73,6 +73,10 @@ defmodule ExAws do
     ExAws.Operation.perform(op, ExAws.Config.new(op.service, config_overrides))
   end
 
+  def demo do
+    42
+  end
+
   @doc """
   Perform an AWS request, raise if it fails.
 
