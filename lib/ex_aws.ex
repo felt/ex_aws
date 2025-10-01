@@ -7,6 +7,10 @@ defmodule ExAws do
 
   @behaviour ExAws.Behaviour
 
+  def demo do
+    43
+  end
+
   @doc """
   Perform an AWS request.
 
